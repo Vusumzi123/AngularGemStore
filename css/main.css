@@ -1,0 +1,21 @@
+html, body{
+  margin:0;
+  padding: 0;
+  border: none;
+}
+
+body{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.list-group{
+  display: block;
+  margin: auto;
+  max-width: 900px;
+  min-width: 600px;
+}
